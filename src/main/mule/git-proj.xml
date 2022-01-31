@@ -12,5 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<logger level="INFO" doc:name="Logger" doc:id="58e59bb7-0b07-4908-865f-7958add9bd24" message="start"/>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="bb85be70-1b47-40f1-bfe6-1be0666ccdb0" />
 		<logger level="INFO" doc:name="Logger" doc:id="3640f094-9c23-46d6-8909-a4152fe6392e" message="end"/>
+		<logger level="INFO" doc:name="Logger" doc:id="2b058512-1e40-4740-8270-0306f47b9908" message="test mule"/>
 	</flow>
 </mule>
