@@ -20,6 +20,25 @@
 	<build>
 		<plugins>
 			<plugin>
+			<configuration>
+				<classifier>mule-application</classifier>
+				<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.3.0</muleVersion>
+						<username>naveen_ap2</username>
+						<password>Steal@123456</password>
+						<applicationName>demo-api-doctus53-v2-nvn</applicationName>
+						<environment>dev</environment>
+						<businessGroup>Apisero</businessGroup>
+						<workerType>SMALL</workerType>
+						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<anypoint.platform.client_id>0e496c7e004645a2b07e9f9fe885846f</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>28c36a88a65f4C43821281357864Bd1a</anypoint.platform.client_secret>
+						</properties>
+					</cloudHubDeployment>
+				
+			</configuration>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-clean-plugin</artifactId>
 				<version>3.0.0</version>
