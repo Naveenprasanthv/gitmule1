@@ -46,7 +46,14 @@
 						<businessGroup>${businessGroup}</businessGroup>
 						<workerType>${workerType}</workerType>
 						<objectStoreV2>true</objectStoreV2>
+<<<<<<< HEAD
 
+=======
+						<properties>
+							<anypoint.platform.client_id>${anypoint.platform.client_id}</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
+						</properties>
+>>>>>>> parent of 8999237 (client ID removal)
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
